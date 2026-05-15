@@ -202,6 +202,10 @@ This project is currently under active development. Translations are continuousl
 
 ## Roadmap ｜ 后续计划
 
+Future development will continue if the project receives sufficient community interest and support.
+
+如果项目获得较高社区关注度与支持，后续将持续更新与扩展。
+
 - Expand the translation dictionary
 - Improve dynamic content detection
 - Support more AI Studio pages
