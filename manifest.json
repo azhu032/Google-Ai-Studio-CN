@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "AI Studio 汉化助手",
+  "version": "1.0",
+  "description": "一键汉化 Google AI Studio 界面文字。",
+  "permissions": ["storage"],
+  "host_permissions": ["https://aistudio.google.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://aistudio.google.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
