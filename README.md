@@ -223,3 +223,21 @@ Future development will continue if the project receives sufficient community in
 ## License ｜ 开源协议
 
 MIT License
+
+---
+
+## Disclaimer ｜ 免责声明
+
+This project is an unofficial third-party browser extension and is not affiliated with, endorsed by, or sponsored by Google.
+
+Google AI Studio and related trademarks are the property of Google LLC.
+
+This project is intended for personal use, learning, and community communication purposes only.
+
+---
+
+本项目为非官方第三方浏览器插件，与 Google 不存在任何关联、授权或官方合作关系。
+
+Google AI Studio 及相关名称与商标归 Google LLC 所有。
+
+本项目仅用于个人学习、技术研究与交流用途。
