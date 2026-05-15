@@ -7,7 +7,9 @@
 # Google AI Studio CN
 
 ### Chrome Extension for Chinese Localization  
-### Google AI Studio 中文汉化插件
+### Google AI Studio 中文界面汉化插件
+
+<br>
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Manifest](https://img.shields.io/badge/Manifest-V3-blue)
@@ -20,41 +22,27 @@
 
 ## Overview ｜ 项目简介
 
-Google AI Studio CN is a lightweight Chrome extension designed to translate the Google AI Studio interface into Chinese.
+**Google AI Studio CN** is a lightweight Chrome extension designed to localize the Google AI Studio interface into Chinese.
 
-It runs locally in the browser and replaces selected English UI text with Chinese text in real time. Users can enable or disable the translation with a simple switch from the extension popup.
+The extension performs local DOM text replacement directly inside the browser, allowing users to switch between English and Chinese UI through a simple toggle.
 
-Google AI Studio CN 是一个用于 Google AI Studio 的 Chrome 浏览器中文汉化插件。
+**Google AI Studio CN** 是一个用于 Google AI Studio 的 Chrome 浏览器汉化插件。
 
-插件在浏览器本地运行，通过替换网页中的英文界面文本，实现 Google AI Studio 的中文界面显示。用户可以通过插件弹窗中的开关自由启用或关闭汉化功能。
-
-This project is intended to help Chinese-speaking users use Google AI Studio more comfortably, especially when exploring models, API keys, build tools, settings, and related interface pages.
-
-本项目旨在帮助中文用户更方便地使用 Google AI Studio，尤其适用于模型探索、API 密钥管理、构建工具、设置页面等常用功能场景。
+插件通过本地网页文本替换实现界面中文化，并支持通过开关控制启用与关闭。
 
 ---
 
 ## Preview ｜ 效果展示
 
-### Banner ｜ 项目横幅
-
-<div align="center">
-
-<img src="screenshots/banner.png" width="92%" />
-
-</div>
-
----
-
 ### Translation Enabled ｜ 汉化开启
 
 <div align="center">
 
-<img src="screenshots/preview-on-1.jpg" width="92%" />
+<img src="screenshots/preview-on-1.jpg" width="90%" />
 
 <br><br>
 
-<img src="screenshots/preview-on-2.jpg" width="92%" />
+<img src="screenshots/preview-on-2.jpg" width="90%" />
 
 </div>
 
@@ -64,7 +52,7 @@ This project is intended to help Chinese-speaking users use Google AI Studio mor
 
 <div align="center">
 
-<img src="screenshots/preview-off-1.jpg" width="92%" />
+<img src="screenshots/preview-off-1.jpg" width="90%" />
 
 </div>
 
@@ -74,7 +62,7 @@ This project is intended to help Chinese-speaking users use Google AI Studio mor
 
 <div align="center">
 
-<img src="screenshots/installation-guide.png" width="92%" />
+<img src="screenshots/installation-guide.png" width="90%" />
 
 </div>
 
@@ -82,31 +70,17 @@ This project is intended to help Chinese-speaking users use Google AI Studio mor
 
 ## Features ｜ 功能特点
 
-- Chinese localization for Google AI Studio
-- One-click enable / disable switch
-- Dynamic page translation support
-- Local-only text replacement
-- No server required
-- No API key required
-- No user data collection
-- Lightweight file structure
-- Chrome Extension Manifest V3
-- MutationObserver-based dynamic DOM detection
-- TreeWalker-based text node traversal
-- Expandable translation dictionary
-
-- 支持 Google AI Studio 中文界面汉化
-- 支持一键开启 / 关闭
-- 支持动态页面文本替换
-- 完全本地运行
-- 不需要服务器
-- 不需要 API Key
-- 不收集用户数据
-- 文件结构轻量
-- 基于 Chrome Extension Manifest V3
-- 使用 MutationObserver 监听页面变化
-- 使用 TreeWalker 遍历网页文本节点
-- 翻译词典可持续扩展
+| English | 中文 |
+|---|---|
+| Chinese localization for Google AI Studio | 支持 Google AI Studio 中文界面汉化 |
+| One-click translation toggle | 支持一键开启与关闭 |
+| Dynamic page translation support | 支持动态页面文本替换 |
+| Lightweight and local-only | 轻量化，本地运行 |
+| No server required | 不需要服务器 |
+| No API key required | 不需要 API Key |
+| Chrome Extension Manifest V3 | 基于 Chrome Extension Manifest V3 |
+| MutationObserver-based DOM detection | 使用 MutationObserver 监听页面变化 |
+| Dynamic translation dictionary | 支持持续扩展翻译词典 |
 
 ---
 
